@@ -1,6 +1,14 @@
-.App {
-  text-align: center;
+
+
+
+body{
+  font-family: 'Gotham Book', sans-serif;;
 }
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +44,164 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* CSS FOR LANDING PAGE STARTS BELOW */
+
+
+:root {
+  --maroonColor: #70193D;
+  --greyColor: #919693;
+
+}
+
+
+/* NAV BAR START */
+
+h1{
+  color: var(--maroonColor);
+  font-size: 55px;
+  font-family: 'Gotham Book', sans-serif;
+  font-weight: bold;
+
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 35px; /* Change font size for screens smaller than 700px */
+  }
+}
+
+.MSU-logo {
+  width: 150px;
+  height: 100px;
+
+}
+
+.nav-container{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.HUB-logo {
+  width: 150px;
+  height: 80px;
+ 
+}
+
+.separator-line {
+  border-top: 2px solid var(--maroonColor); /* Adjust the separator style as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+
+/* NAV BAR END */
+/* RESERVE BEGINNING */
+
+h3{
+  font-family: 'Gotham Book', sans-serif;
+  color: var(--greyColor);
+
+}
+
+@media screen and (max-width: 400px) {
+  h3 {
+    font-size: 20px; /* Change font size for screens smaller than 700px */
+  }
+}
+
+.reserveButton{
+  color: white;
+  font-family:'Gotham Book', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 35px;
+  padding: 25px 25px;
+  background: var(--maroonColor);
+  cursor: pointer;
+  border: 3px solid var(--maroonColor);
+  text-decoration: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.reserveButton:hover{
+  background-color: transparent;
+  color: var(--maroonColor);
+  border: 3px solid var(--maroonColor);
+}
+
+@media screen and (max-width: 400px) {
+  .reserveButton {
+    font-size: 15px; /* Change font size for screens smaller than 700px */
+  }
+}
+
+.underlineButton{
+  color: var(--maroonColor);
+  font-size:25px;
+  cursor: pointer;
+}
+
+/* RESERVE END */
+/* COLLABORATION BEGINNING */
+
+h4{
+  color: var(--greyColor);
+}
+
+.colabContent{
+ font-size: 19px;
+}
+
+.border-right:before {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10%;
+  width: 2px;
+  border-radius: 10%; /* Adjust the width as needed */
+  height: 70%; /* Adjust the height as needed */
+  background-color: var(--maroonColor);
+}
+
+.col-md-6 {
+  position: relative;
+}
+
+
+
+
+
+
+/* COLLABORATION END */
+/* FOOTER BEGINNING */
+
+.footer{
+  background-color: var(--maroonColor);
+}
+
+.MSU-logo-footer{
+  width: 125px;
+  height: 75px;
+  padding: 5px;
+}
+
+.footer-info{
+  color: white;
+  font-size:20px;
+}
+
+.please-email-us{
+  color: var(--greyColor);
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.footer-msu{
+  color: white;
+  font-size:25px;
+  font-weight:bold;
+}
+
+/* CSS FOR LANDING PAGE ENDS */
