@@ -63,7 +63,7 @@ function LandingPage() {
           </div>
           <div className="row mt-5 mb-2">
             <div className="col-12 ">
-              <a className="reserveButton" href="https://booked.msuit.ca/Web/?">
+              <a className="reserveButton" href="https://booked.msuhubbookings.ca/">
                 {" "}
                 <i>
                   <AiOutlineCalendar />
@@ -74,7 +74,7 @@ function LandingPage() {
           </div>
           <div className="row mt-4">
             <div className="col-12">
-              <a className="underlineButton" href="https://accessible.msuit.ca/">Accessible Reservation Schedule</a>
+              <a className="underlineButton" href="https://accessible.msuhubbookings.ca/">Accessible Reservation Schedule</a>
             </div>
           </div>
         </div>
